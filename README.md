@@ -45,9 +45,8 @@ This project is designed to help users quickly retrieve relevant information fro
 1. **Run the application**:
    ```bash
    streamlit run app.py
-   cd your-repo-name
    ```
-2. **Upload PDFs**
+2. **Upload PDFs:**
 - Use the sidebar to upload one or more PDF files.
 - Click on the "Submit & Process" button to process the files.
 
@@ -57,13 +56,13 @@ This project is designed to help users quickly retrieve relevant information fro
 
 ## Code Structure
 
-**app.py**
+**app.py -**
 The main script to run the Streamlit application. It handles:
 - User interface with Streamlit.
 - User input processing and conversation state management.
 - PDF upload and processing initiation.
 
-**src/helper.py**
+**src/helper.py -**
 Contains utility functions for core operations:
 - **get_pdf_text(pdf_docs):** Extracts text from uploaded PDF documents.
 - **get_text_chunks(text):** Splits text into chunks using RecursiveCharacterTextSplitter.
