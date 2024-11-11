@@ -56,13 +56,17 @@ This project is designed to help users quickly retrieve relevant information fro
 
 ## Code Structure
 
-**app.py -**
+**app.py**
+
+
 The main script to run the Streamlit application. It handles:
 - User interface with Streamlit.
 - User input processing and conversation state management.
 - PDF upload and processing initiation.
 
-**src/helper.py -**
+**src/helper.py**  
+
+
 Contains utility functions for core operations:
 - **get_pdf_text(pdf_docs):** Extracts text from uploaded PDF documents.
 - **get_text_chunks(text):** Splits text into chunks using RecursiveCharacterTextSplitter.
